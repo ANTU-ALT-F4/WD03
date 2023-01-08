@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Question 2</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<figure class="SlidingPuzzleFigure">
+		Current State
+		<div class="main">
+			<section>
+				<ul class="SlidingPuzzle">
+					<li onmouseup="onup_1()" ondblclick="ondbl()" id="title1" class="Tile Tile1">1</li>
+					<li onmouseup="onup_2()" ondblclick="ondbl()" id="title2" class="Tile Tile2">2</li>
+					<li onmouseup="onup_3()" ondblclick="ondbl()" id="title3" class="Tile Tile3">3</li>
+					<li onmouseup="onup_4()" ondblclick="ondbl()" id="title4" class="Tile Tile4">4</li>
+					<li onmouseup="onup_5()" ondblclick="ondbl()" id="title5" class="Tile Tile5">5</li>
+					<li onmouseup="onup_6()" ondblclick="ondbl()" id="title6" class="Tile Tile6">6</li>
+					<li onmouseup="onup_7()" ondblclick="ondbl()" id="title7" class="Tile Tile7">7</li>
+					<li onmouseup="onup_8()" ondblclick="ondbl()" id="title8" class="Tile Tile8">8</li>
+				</ul>
+				<div class="moves">Moves: <span id="movesnum">0</span></div>
+				<button type="button" id="newgame">New Game</button>
+				<button type="button" id="solveit">Solve It!</button>
+			</section>
+		</div>
+
+	</figure>
+	<script src="./main.js"></script>
+</body>
+
+</html>
