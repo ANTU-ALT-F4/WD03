@@ -1,0 +1,50 @@
+*{
+    font-size: 18px;
+}
+
+.main{
+    margin: 70px auto;
+    padding: 25px;
+    width: 40%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.title{
+    color: blue;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #FFF2CD;
+}
+
+table{
+    width: 600px;
+    height: 300px;
+    border-style: double;
+    border-color: red;
+    border-collapse: collapse;
+}
+
+.List-flowers{
+    color: blue;
+    margin-left: 15px;
+    width: 150px;
+    background-color: #92D14F;
+    font-weight: bold;
+}
+
+td{
+    border: 1px solid green;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.footer{
+    text-align: right;
+    background-color: #E8EFEA;
+}
+#img{
+    height: 250px;
+}
+
