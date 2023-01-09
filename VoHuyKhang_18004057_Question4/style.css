@@ -1,0 +1,44 @@
+.container{
+    border: 1px solid #787878;
+    margin: 60px auto;
+    width: 40%;
+    margin-top: 20px;
+    padding: 20px 3px;
+}
+
+.title{
+    margin-top: 20px;
+    color: blue;
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 350px;
+}
+
+.khungnhap{
+    background-color: #000b15;
+    width: 40%;
+    padding: 3px;
+}
+input{
+    color: rgb(227, 0, 0);
+    width: 150px;
+    height: 40px;
+}
+button{
+    width: 82px;
+    height: 45px;
+    border: 1px solid white;
+    background-color: #000b15;
+    color: white;
+}
+
+table{
+    margin-top: 35px;
+    height: 90px;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: center;
+}
+th,td{
+    border: 1px solid black;
+}
